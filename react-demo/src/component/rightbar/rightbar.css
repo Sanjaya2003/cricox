@@ -1,0 +1,113 @@
+
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.rightbar {
+    flex: 3.5;
+}
+
+.rightbarwrapper {
+    padding: 20px 20px 0 0;
+}
+
+.birthdaycontainer {
+    display: flex;
+    align-items: center;
+}
+
+.birthdayimg {
+    width: 120px;
+    height: 120 px;
+    margin-right: -35px;
+
+}
+
+.birthdaytext {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.rightbaradd {
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.rightbartitle {
+    margin-bottom: 20px;
+}
+
+.rightbarfriendlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbartitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightbarinfo {
+    margin-bottom: 30px;
+}
+
+.rightbarinfoitem {
+    margin-bottom: 10px;
+}
+
+.rightbarinfokey {
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+
+}
+
+.rightbarinfovalue {
+    font-weight: 10;
+}
+
+.rightbarfollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+.rightbarfollowing {
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+cursor: pointer;
+}
+.rightbarfollowingimg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rightbarfollowingname
+{
+    text-decoration: none;
+    text-align: center;
+}
+.rightbarfollowbutton
+{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    background-color:rgb(8, 106, 244) ;
+    outline: none;
+    font-family:inherit;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
